@@ -1,7 +1,7 @@
 //https://connect.revature.net/stream/340385000004894042
 //Problem 1: Filter Out Strings from an Array
 function filterArray(arr) {
-	return arr.filter(element => {typeof element != "string"});
+	return arr.filter(element => {return typeof element != "string"});
 }
 
 //Problem 2: Multiply by 11
